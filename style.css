@@ -1,0 +1,83 @@
+.body {
+	box-sizing: border-box;
+}
+.weak {
+	display: flex;
+}
+.weakItem {
+	padding: 8px;
+}
+.wrapper-calend {
+	width: 300px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.month {
+	text-align: center;
+}
+.btn {
+	margin-left: 10px;
+	padding: 5px;
+}
+.container-weak {
+	width: 280px;
+	margin: 0 auto;
+}
+.caled {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+.item {
+	cursor: pointer;
+	padding: 3px 5px;
+	margin: 5px;
+	background-color: rgba(0, 0, 0, 0.082);
+}
+.active {
+	background-color: rgb(175, 176, 255);
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+.res {
+	margin-left: 0px;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.438);
+}
+.modalWindow {
+	width: 300px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 30px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	z-index: 1000;
+}
+.open {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+.hide {
+	display: none;
+}
+.container {
+	width: 500px;
+	position: absolute;
+	top: 200px;
+	left: 42%;
+}
